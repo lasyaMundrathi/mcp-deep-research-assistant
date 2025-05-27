@@ -10,8 +10,6 @@ from crewai import Agent, Task, Crew, Process, LLM
 # Load environment variables (for non-LinkUp settings)
 load_dotenv()
 
-
-
 def get_llm_client():
     """Initialize and return the LLM client (OpenAI-based)"""
     return LLM(
