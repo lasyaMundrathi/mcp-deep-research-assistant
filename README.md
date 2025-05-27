@@ -76,17 +76,13 @@ Add to your `mcp.json`:
 
 ```
 deep-researcher/
-├── agents/
-│   ├── web_search_agent.py
-│   ├── research_analyst.py
-│   └── technical_writer.py
-├── tools/
-│   └── linkup_tool.py
-├── app/
-│   └── streamlit_app.py
+├── agents.py/
+│   ├── web_search_agent
+│   ├── research_analyst
+│   └── technical_writer
+├── app.py
 ├── server.py
-├── crewai_orchestration.py
-├── requirements.txt
+├── pyproject.toml
 └── README.md
 ```
 
