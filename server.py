@@ -5,6 +5,7 @@ from agents import run_research
 # Create FastMCP instance
 mcp = FastMCP("crew_research")
 
+
 @mcp.tool()
 async def crew_research(query: str) -> str:
     """Run CrewAI-based research system for given user query. Can do both standard and deep web search.
