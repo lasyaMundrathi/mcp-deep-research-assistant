@@ -1,12 +1,8 @@
 # Deep Researcher: Multi-Agent Research Assistant (Streamlit & MCP)
 
 A modular, AI-powered research assistant that performs in-depth web research and summarizes findings with citations. Built with [CrewAI](https://github.com/joaomdmoura/crewAI), enhanced by [Linkup](https://linkup.dev/) for real-time search, and accessible via Streamlit or as an MCP tool for IDEs (e.g., Cursor).
-
----
-
 ## 🏗️ System Architecture
-
-![System Architecture Diagram](Architecture%20Flow%20of%20Multi-Agent%20Research%20System.png)
+<img src="https://github.com/user-attachments/assets/3ec33263-7d27-4f6f-a42c-ed9d29b65a12" alt="Architecture Flow of Multi-Agent Research System" width="300"/>
 
 ---
 
